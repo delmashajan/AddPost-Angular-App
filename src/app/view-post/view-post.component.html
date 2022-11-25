@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row mt-4">
+        <table class="table">
+            <thead>
+              <tr>
+                
+                <th scope="col">User Id</th>
+                <th scope="col">ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Company</th>
+                
+                
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let i of post">
+                <td>{{i.userId}}</td>
+                <td>{{i.id}}</td>
+                <td>{{i.title}}</td>
+                <td>{{i.body}}</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+</div>
