@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AddPostComponent {
 
+  userId=""
+  id=""
+  title=""
+  body=""
+
+  readValue=()=>
+  {
+    let data:any={
+
+      "userid":this.userId,"id":this.id,"title":this.title,"body":this.body
+    }
+    console.log(data)
+    
+  }
+
 }
